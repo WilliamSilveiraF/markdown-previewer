@@ -1,8 +1,11 @@
+import React from "react";
+
 function App() {
   return (
-    <div>
-      Setup
-    </div>
+    <section className='compiler'>
+      <textarea name='' id='editor'></textarea>
+      <article id='preview'>teste</article>
+    </section>
   );
 }
 
