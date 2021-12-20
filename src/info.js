@@ -25,7 +25,6 @@ export const info = `
     let z = x + y;
     return z
   }
-
   \`\`\`
 
-  ![React](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg)`
+  ![Github](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg)`
