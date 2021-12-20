@@ -1,14 +1,15 @@
 import React, { useState } from "react";
 import { marked } from "marked";
+import { info } from './info'
 
 function App() {
-  const [text, setText] = useState('# Bem-Vindo')
+  const [text, setText] = useState(info)
   
   const getMarkdown = () => {
     const markdown = marked(text, { breaks: true })
     return { __html: markdown }
   }
-  
+
   return (
     <main>
       <section id='compiler' className="column mt-4">
