@@ -15,7 +15,7 @@ function App() {
       <section id='compiler' className="column mt-4">
         
         <div class="control form-group shadow-textarea col-10 m-auto">
-          <h1 className="mb-4 text-center">Converta seu Markdown:</h1>
+          <h1 className="mb-4 text-center">Convert your markdown:</h1>
           <textarea 
             class="form-control z-depth-1"
             placeholder="Converta seu markdown:"
